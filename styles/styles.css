@@ -29,7 +29,7 @@ a {
 .container {
   max-width: 70rem;
   margin: 0 auto;
-  padding: 0 1.6rem;
+  padding: 0 1.7rem;
 }
 
 /* Header */
@@ -37,7 +37,7 @@ a {
 .header {
   background: #43799c;
   color: white;
-  padding: 1.6rem 0;
+  padding: 1.7rem 0;
 }
 
 .header__title {
@@ -46,7 +46,7 @@ a {
 }
 
 .header__subtitle {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   font-weight: 300;
 }
 
