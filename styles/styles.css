@@ -7,7 +7,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 62.8%;
 }
 
 body {
@@ -27,7 +27,7 @@ a {
 /* Container */
 
 .container {
-  max-width: 60rem;
+  max-width: 70rem;
   margin: 0 auto;
   padding: 0 1.6rem;
 }
@@ -41,7 +41,7 @@ a {
 }
 
 .header__title {
-  font-size: 3.2rem;
+  font-size: 3.5rem;
   margin-bottom: .4rem;
 }
 
