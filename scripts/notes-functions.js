@@ -34,7 +34,7 @@ const generateNoteDOM = (note) => {
     if (note.title.length > 0){
         textEl.textContent = note.title;
     } else {
-        textEl.textContent = 'Unnamed note';
+        textEl.textContent = 'No heading';
     }
     textEl.classList.add('list-item__title')
     noteEl.appendChild(textEl);
@@ -78,6 +78,16 @@ const sortNotes = (notes, sortBy) => {
             if (a.title.toLowerCase() < b.title.toLowerCase()){
                 return -1;
             } else if (a.title.toLowerCase() > b.title.toLowerCase()){
+                return 1;
+            } else {
+                return 0;
+            }
+        })
+    } else if (sortBy === 'chronological') {
+        return notes.sort( (a,b) => {
+            if (a.createdAt < b.createdAt){
+                return -1;
+            } else if (a.createdAt > b.createdAt){
                 return 1;
             } else {
                 return 0;
